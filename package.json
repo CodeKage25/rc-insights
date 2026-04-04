@@ -1,0 +1,22 @@
+{
+  "name": "rc-insights",
+  "version": "1.0.0",
+  "description": "CLI tool that fetches RevenueCat Charts API data and generates a business health report",
+  "main": "index.js",
+  "bin": {
+    "rc-insights": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node index.js --project proj058a6330 --key sk_qdnvkjsVGhoVVNGiajqNHYIypcjgs --output sample-output/report.md"
+  },
+  "keywords": ["revenuecat", "subscription", "analytics", "mrr", "charts", "cli"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "node-fetch": "^2.7.0",
+    "ora": "^5.4.1"
+  }
+}
